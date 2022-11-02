@@ -1,3 +1,5 @@
+ 
+
 function checkPrime(number){ 
   let factors=0;
   for(let i=1; i<=number; i++){
@@ -5,16 +7,16 @@ function checkPrime(number){
          factors++ ; 
      }
   }
-   if(factors == 2 ){
+   if(counter == 2 ){
         return true; 
    }
     return false;
 }
 
-let answer = checkPrime(13); 
+let ans = checkPrime(51); 
 
-if(answer == true){
-    console.log("Prime Number");
+if(ans == true){
+    console.log("Prime");
 } else {
-    console.log("Not a Prime Number");
-
+    console.log("Not Prime");
+}
